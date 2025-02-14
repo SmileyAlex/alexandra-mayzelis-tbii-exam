@@ -324,7 +324,7 @@ elif st.session_state.selected_page == "Add Your Event":
                     "source": "user"
                 }
                 save_event(new_event)
-                st.success(f"Your event '{event_title}' has been successfully added!")
+                st.success(f"Your event '{event_title}' has been successfully added to the Events page!")
             else:
                 st.error("Please fill out all fields.")
 
