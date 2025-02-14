@@ -353,7 +353,7 @@ elif st.session_state.selected_page == "Add Your Event":
 # Code for the About FLINTA page
 elif st.session_state.selected_page == "About FLINTA":
     st.header("About FLINTA📖", divider='rainbow')
-    st.image("FLINTA2.jpg")
+    st.image("flinta-app/FLINTA2.jpg")
     st.markdown("""
         **Welcome to the FLINTA Space**
 
