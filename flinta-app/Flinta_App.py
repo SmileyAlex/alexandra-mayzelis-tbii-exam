@@ -74,7 +74,7 @@ st.sidebar.button("Feedback", on_click=set_page, args=("Feedback",))
 
 # Code for Home page
 if st.session_state.selected_page == "Home":
-    st.image("Flinta3.jpg")
+    st.image("flinta-app/Flinta3.jpg")
     st.header("Welcome to FLINTA Space Hamburg🌈", divider='rainbow')
     st.markdown("""
     **Looking for safe, welcoming spaces in Hamburg?** 
