@@ -117,7 +117,7 @@ elif st.session_state.selected_page == "Map":
     # Left Column - Map
     with col1:
         # Load data from CSV (downloaded from Google Sheets)
-        data = pd.read_csv('places.csv')  # Ensure this CSV is in your project folder
+        data = pd.read_csv('flinta-app/places.csv')  # Ensure this CSV is in your project folder
 
         # Folium Map Setup (provided by Chat gpt)
         m = folium.Map(location=[53.5511, 9.9937], zoom_start=12)
