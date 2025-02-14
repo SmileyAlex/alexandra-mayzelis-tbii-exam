@@ -36,11 +36,11 @@ def connect_to_mongo():
 
 # Function to load events from CSV file
 def load_events():
-    if not os.path.exists('events.csv'):
+    if not os.path.exists('flinta-app/events.csv'):
         df = pd.DataFrame(columns=["title", "date", "adress", "description", "source"])
-        df.to_csv('events.csv', index=False)
+        df.to_csv('flinta-app/events.csv', index=False)
     else:
-        df = pd.read_csv('events.csv')
+        df = pd.read_csv('flinta-app/events.csv')
 
     # Ensure 'source' column exists
     if 'source' not in df.columns:
